@@ -2,7 +2,7 @@
 
 name = "new-extenstion"
 client_id = "a932177b269409ec57f5b6cb14ff7740"
-application_url = "https://anne-livestock-capitol-bracelet.trycloudflare.com"
+application_url = "https://static-poison-hope-opposition.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://anne-livestock-capitol-bracelet.trycloudflare.com/auth/callback",
-  "https://anne-livestock-capitol-bracelet.trycloudflare.com/auth/shopify/callback",
-  "https://anne-livestock-capitol-bracelet.trycloudflare.com/api/auth/callback"
+  "https://static-poison-hope-opposition.trycloudflare.com/auth/callback",
+  "https://static-poison-hope-opposition.trycloudflare.com/auth/shopify/callback",
+  "https://static-poison-hope-opposition.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
