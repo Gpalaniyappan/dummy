@@ -2,7 +2,7 @@
 
 name = "new-extenstion"
 client_id = "a932177b269409ec57f5b6cb14ff7740"
-application_url = "https://example.com"
+application_url = "https://anne-livestock-capitol-bracelet.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -10,10 +10,18 @@ embedded = true
 scopes = "write_products"
 
 [auth]
-redirect_urls = [ "https://example.com/api/auth" ]
+redirect_urls = [
+  "https://anne-livestock-capitol-bracelet.trycloudflare.com/auth/callback",
+  "https://anne-livestock-capitol-bracelet.trycloudflare.com/auth/shopify/callback",
+  "https://anne-livestock-capitol-bracelet.trycloudflare.com/api/auth/callback"
+]
 
 [webhooks]
 api_version = "2023-07"
 
 [pos]
 embedded = false
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "palani-dev.myshopify.com"
