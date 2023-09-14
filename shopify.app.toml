@@ -2,7 +2,7 @@
 
 name = "new-extenstion"
 client_id = "a932177b269409ec57f5b6cb14ff7740"
-application_url = "https://trademarks-rca-physiology-keno.trycloudflare.com"
+application_url = "https://casual-sacrifice-parenting-engaging.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://trademarks-rca-physiology-keno.trycloudflare.com/auth/callback",
-  "https://trademarks-rca-physiology-keno.trycloudflare.com/auth/shopify/callback",
-  "https://trademarks-rca-physiology-keno.trycloudflare.com/api/auth/callback"
+  "https://casual-sacrifice-parenting-engaging.trycloudflare.com/auth/callback",
+  "https://casual-sacrifice-parenting-engaging.trycloudflare.com/auth/shopify/callback",
+  "https://casual-sacrifice-parenting-engaging.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
