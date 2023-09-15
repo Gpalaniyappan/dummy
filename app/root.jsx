@@ -6,6 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
+import MyApp from "./sidemenu/sideMenu";
 
 export default function App() {
   return (
@@ -16,11 +17,9 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
-        <Outlet />
-        <ScrollRestoration />
-        <LiveReload />
-        <Scripts />
+      <body style={{'textAlign':'center'}}>
+        <h1 style={{'textAlign':'center'}}>Hi iam palani testing app</h1>
+        <MyApp/>
       </body>
     </html>
   );
