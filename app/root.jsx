@@ -6,9 +6,11 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import MyApp from "./sidemenu/sideMenu";
+
 
 export default function App() {
+  console.log('this is loading----');
+  
   return (
     <html>
       <head>
@@ -18,8 +20,9 @@ export default function App() {
         <Links />
       </head>
       <body style={{'textAlign':'center'}}>
-        <h1 style={{'textAlign':'center'}}>Hi iam palani testing app</h1>
-        <MyApp/>
+        <h1 style={{'textAlign':'center'}}>Hi iam palani testing app-----</h1>
+        <p>hi</p>
+       
       </body>
     </html>
   );

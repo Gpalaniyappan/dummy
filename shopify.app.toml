@@ -2,7 +2,7 @@
 
 name = "new-extenstion"
 client_id = "a932177b269409ec57f5b6cb14ff7740"
-application_url = "https://coin-strings-accomplished-ash.trycloudflare.com"
+application_url = "https://activity-floral-expression-afraid.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://coin-strings-accomplished-ash.trycloudflare.com/auth/callback",
-  "https://coin-strings-accomplished-ash.trycloudflare.com/auth/shopify/callback",
-  "https://coin-strings-accomplished-ash.trycloudflare.com/api/auth/callback"
+  "https://activity-floral-expression-afraid.trycloudflare.com/auth/callback",
+  "https://activity-floral-expression-afraid.trycloudflare.com/auth/shopify/callback",
+  "https://activity-floral-expression-afraid.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
